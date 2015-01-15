@@ -178,6 +178,12 @@
             android:layout_weight="1"
             android:gravity="center" >
 
+            <!--<Button-->
+                <!--android:id="@+id/ButtonSet"-->
+                <!--style="@style/number_button"-->
+                <!--android:text="@string/Set" />-->
+
+
             <Button
                 android:id="@+id/ButtonSet"
                 style="@style/number_button"
@@ -199,6 +205,7 @@
                 android:id="@+id/Button45"
                 style="@style/number_button"
                 android:text="@string/Key45" />
+
         </TableRow>
     </TableLayout>
 

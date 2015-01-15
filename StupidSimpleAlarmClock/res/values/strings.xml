@@ -51,4 +51,5 @@
     <string name="PreferenceCloseOnCancelKey">CloseOnCancel</string>
     <string name="PreferenceCloseOnCancelTitle">Cancel and close</string>
     <string name="PreferenceCloseOnCancelSummary">Close main screen when alarm is canceled</string>
+    <string name="set">set</string>
 </resources>
