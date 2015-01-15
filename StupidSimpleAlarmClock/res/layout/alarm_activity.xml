@@ -4,30 +4,35 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".AlarmActivity" >
+    tools:context=".AlarmActivity"
+    android:id="@+id/layout"
+    android:background="#ff000000"
+    android:weightSum="1">
 
     <TextView
         android:id="@+id/textViewCurrentTime"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="59dp"
         android:text="@string/DefaultTime"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="60sp" />
+        android:textSize="60sp"
+        android:textColor="#fffffef0"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="190px"
+        android:layout_weight="0.75" />
 
     <Button
         android:id="@+id/buttonSnooze"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0.5"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
         android:textSize="50sp"
         android:text="@string/Snooze" />
 
     <Button
         android:id="@+id/buttonStop"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0.5"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
         android:textSize="50sp"
         android:text="@string/Stop" />
-    
+
 </LinearLayout>
